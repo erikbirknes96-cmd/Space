@@ -19,6 +19,21 @@ nav {
   height: 15svh;
   background: linear-gradient(0deg,rgba(0, 0, 0, 0) 0%, rgba(135, 131, 131, 1) 100%);
 }
+section {
+  height: 100svh;
+  margin-block: 30svh;
+}
+
+#Sun {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-image: url(./Assets/Images/nasa-JHyiw_dpALk-unsplash.jpg); 
+  background-position:center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
 #Earth {
   display: flex;
@@ -29,9 +44,6 @@ nav {
   background-position:center;
   background-repeat: no-repeat;
   background-size: cover;
-  color: white;
-  height: 100svh;
-  margin-block: 30svh;
 }
 
 .about {
