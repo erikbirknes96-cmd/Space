@@ -66,9 +66,20 @@ section {
   height: 100svh;
   margin-block: 30vh;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
+
+article {
+  background-color: black;
+  opacity: .8;
+  color:white;
+  padding-block:6vh;
+  text-align: center;
+  width: 100%;
+}
+
 
 #Sun {
   background-image: url(./Assets/Images/GSFC_20171208_Archive_e001435~large.jpg); 
@@ -78,6 +89,14 @@ section {
   height: 68vh;
 }
 
+#Moon {
+  background-image: url(./Assets/Images/mike-petrucci-uIf6H1or1nE-unsplash-removebg-preview.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 50%;
+  
+}
+
 #Earth {
   background-image: url(./Assets/Images/image-removebg-preview.png); 
   background-position:center;
@@ -85,10 +104,9 @@ section {
   background-size: cover;
 }
 
-.about {
-  text-align: center;
-  font-size: 2rem;
 
+h1 {
+  text-decoration: underline;
 }
 
 footer {
